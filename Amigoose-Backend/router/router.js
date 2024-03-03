@@ -39,8 +39,8 @@ router.get('/turfs', turfContoller.getAllTurfs);
 router.put('/updateTurf/:id', turfContoller.updateTurf);
 // Router for getting all the bookings
 router.get('/bookings', BookingController.Bookings);
-
-
+// Router for deleting the turf
+router.delete('/deleteturf/:id', turfContoller.deleteTURF);
 
 // Rozor pay api 
 router.post('/makePayment',razorpayController.createOrder);

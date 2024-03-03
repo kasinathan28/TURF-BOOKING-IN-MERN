@@ -103,3 +103,16 @@ exports.getaturf = async (req, res) =>{
     console.log("Error fetching the turf details", error);
   }
 }
+
+exports.deleteTURF = async (req, res) =>{
+  const {id} = req.params;
+  console.log("id:",id);
+  try {
+    const response = await Turfs.findByIdAndDelete(id);
+    console.log("TURF deleted successfully");
+    res.status(200).json(response);
+  } catch (error) {
+    console.log("Error while deleting the turf", error);
+    res.status(500).json({message:Error});
+  }
+}

@@ -77,6 +77,14 @@ function Turfs() {
     setEditTurf(null);
   };
 
+  const handleDelete= async (id)=>{
+    try{
+      const response = await axios.delete(`http://localhost:5000/deleteTurf/${id}`)
+    }catch(error){
+      console.log("Error while deleting the turf", error);
+    }
+  }
+
   return (
     <div className="TurfPage">
       <div>
@@ -231,7 +239,7 @@ function Turfs() {
                 <button id="edit" onClick={() => handleEditClick(turf)}>
                   Edit
                 </button>
-                <button id="del">Delete</button>
+                <button id="del" onClick={handleDelete(turf.id)}>Delete</button>
               </div>
             </div>
           </div>
