@@ -1,0 +1,11 @@
+.mainLogo{
+    width: 350px;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.mainLogo img{
+    width: 100px;
+}

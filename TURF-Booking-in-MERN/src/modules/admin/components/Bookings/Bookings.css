@@ -1,0 +1,39 @@
+.BookingPageContainer {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 20px;
+  padding: 20px;
+  background: #22395c;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.BookingPageContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.BookingPageContainer th,
+.BookingPageContainer td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.BookingPageContainer th {
+  background-color: #1b2a4a;
+}
+
+.BookingPageContainer tr:nth-child(even) {
+  background-color: #1b2a4a;
+}
+
+.BookingPageContainer tr:hover {
+  background-color: #2a4365;
+}
+
+.BookingPage h1 {
+  margin-left: 20px;
+  color: #fff;
+}

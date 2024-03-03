@@ -1,0 +1,110 @@
+.userDash-Container {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../common/assets/bg.jpeg");
+  }
+
+  .element-with-scrollbar {
+    overflow: hidden;
+  }
+
+  .userDash-Container .heading3 {
+    padding: 20px;
+  }
+  
+  .userDash-Container .heading3 h1 {
+    margin-left: 30px;
+    color: #dfc8ea;
+    font-size: 44px;
+  }
+  
+  .userDash-Container .turf-list {
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px 0;
+  }
+  
+  .turf-card {
+    position: relative; 
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 10px solid #fff;
+  }
+  
+  .turfcard-bg {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.3s ease all;
+  }
+  
+  .turfcard-bg img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease all;
+    object-fit: cover;
+  }
+
+  .bottom-details {
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    color: #fff;
+    right: 0;
+    position: absolute;
+    background: #1347596d;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-top: 10px solid #fff;
+    transition: 0.3s ease all;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+  .bottom-details button {
+    padding: 10px 20px;
+    margin: 50px;
+    width: 100px;
+    height: auto;
+    border-radius: 20px;
+    border: none;
+    background: lightgreen;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+  .bottom-details .title{
+    margin-left: 50px;
+  }
+
+  .bottom-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .bottom-details p {
+    margin-bottom: 5px;
+  }
+
+ 
+ 
+
+  .userDash-Container .turf-list .turf-card:hover .bottom-details{
+    bottom: 0;
+  }
+
+ .userDash-Container .turf-list .turf-card:hover .turfcard-bg{
+    transform:rotate(4deg) scale(1.1);
+  }
+  

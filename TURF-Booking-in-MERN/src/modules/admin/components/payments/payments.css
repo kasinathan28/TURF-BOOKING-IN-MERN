@@ -1,0 +1,16 @@
+
+.PaymentPageContainer {
+    width: 98%;
+    height: auto;
+    margin: 20px 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #22395c;
+    box-sizing: border-box;
+  }
+  
+  .PaymentPage h1 {
+    margin-left: 60px;
+    color: #fff;
+  }
+  

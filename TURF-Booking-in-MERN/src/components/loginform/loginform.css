@@ -1,0 +1,107 @@
+/* LoginForm.css */
+
+.loginform {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form-container {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    height: 500px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .loginform.show .login-form-container {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #dfc8ea;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-form-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #22395c;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+  }
+  
+  .login-button {
+    background-color: #dfc8ea;
+    color: #000;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s ease all;
+  }
+  
+  .login-button:hover {
+    background-color: #22395c;
+    color: #fff;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    text-align: right;
+    color: #555;
+    margin-top: 30px;
+  }
+  
+  .create-account {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .create-account a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .create-account a:hover {
+    text-decoration: underline;
+  }
+  

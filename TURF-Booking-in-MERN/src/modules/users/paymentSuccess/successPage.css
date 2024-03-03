@@ -1,0 +1,48 @@
+.successPage {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M720 686.61C825.2 686.13 916.62 625.37 992.14 552.14 1069.08 477.51 1136.67 387.17 1139.25 280 1141.91 170.76 1086.59 67.77 1005.63-5.63 928.39-75.71 824.07-93.86 720-100.26 606.54-107.19 483.8-116.41 397.07-42.93 305.4 34.72 261.41 160.25 271.1 280 280.18 392.34 361.84 478.97 445.38 554.62 523.62 625.47 614.43 687.08 720 686.61' fill='%231c538e'%3e%3c/path%3e%3cpath d='M720 543.1C788.07 542.79 847.23 503.48 896.09 456.09 945.87 407.8 989.61 349.34 991.28 280 993 209.31 957.2 142.68 904.82 95.18 854.84 49.84 787.34 38.09 720 33.95 646.59 29.46 567.17 23.5 511.04 71.04 451.73 121.29 423.26 202.52 429.53 280 435.41 352.69 488.25 408.74 542.31 457.69 592.93 503.54 651.69 543.41 720 543.1' fill='%232774c6'%3e%3c/path%3e%3cpath d='M720 399.59C750.94 399.45 777.83 381.58 800.04 360.04 822.67 338.09 842.55 311.52 843.31 280 844.09 247.87 827.82 217.58 804.01 195.99 781.29 175.38 750.61 170.04 720 168.16 686.63 166.12 650.53 163.41 625.02 185.02 598.06 207.86 585.12 244.78 587.97 280 590.64 313.04 614.66 338.52 639.23 360.77 662.24 381.61 688.95 399.73 720 399.59' fill='%23488fdb'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.successPage h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.successPage h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.successPage h3 {
+    font-size: 1.5rem;
+}
+
+.successPage .name{
+    text-transform: uppercase;
+}
+
+.playimg {float: right;
+    mix-blend-mode: multiply;
+}
+
+
+.go-back button{
+    background: #ded5e2;
+    padding: 20px;
+    width: auto;
+    transition: 0.3s ease all;
+}
+.go-back button:hover{
+    transform: translateY(-10px);
+}
+.go-back button:active{
+    transform: translateY(10px);
+}

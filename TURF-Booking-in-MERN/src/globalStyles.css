@@ -1,0 +1,23 @@
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+body {
+  scrollbar-color: #555 #eee;
+}
+
+body {
+  scrollbar-base-color: #eee;
+  scrollbar-face-color: #555;
+  font-family: "Poppins", sans-serif;
+}

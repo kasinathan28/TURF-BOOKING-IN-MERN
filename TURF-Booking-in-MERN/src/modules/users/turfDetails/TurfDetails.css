@@ -1,0 +1,85 @@
+.turf-details-container {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+} */
+
+.turf-details-content {
+    display: flex;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    float: left;
+    margin-left: 100px;
+    margin-right: auto;
+    height: 500px;
+    border-radius: 10px;
+    width: 900px;
+}
+
+.image-container {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.image-container img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.details {
+    width: 50%;
+    z-index: 1000;
+}
+
+.details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.details p {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+.book-button{
+    width: 300px;
+    float: right;
+    margin-left: auto;
+}
+
+.book-now-button {
+    padding: 15px 30px;
+    background-color: #22395c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-button:hover {
+    background-color: #1c3252;
+  }
+  
+  
+  .book-now-button:active {
+    background-color: #16233d;
+  }
+  

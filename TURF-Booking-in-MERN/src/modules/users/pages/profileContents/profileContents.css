@@ -1,0 +1,133 @@
+.profileContainer1{
+display: flex;
+justify-content: center;
+margin: auto;
+}
+
+
+.profileContent {
+    display: flex;
+  }
+
+  .profileContent h2 {
+    color: #333;
+    font-size: 24px;
+    left: 0;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+  
+  .profileContent div {
+    margin-top: 10px;
+  }
+  
+  .profileContent p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .profileContent p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .profileContent p.loading {
+    font-style: italic;
+    color: #777;
+  }
+  
+
+  .profile-details {
+    margin: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+  }
+  
+  .details-div{
+    display: flex;
+  }
+
+  .profile-labels{
+    margin: auto;
+    text-align: left;
+  }
+  .profile-details h2 {
+    color: #333;
+    font-size: 24px;
+  }
+
+  .profile-details .avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .profile-details .avatar img{
+    object-fit: cover;
+
+  }
+  
+  .profile-details p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .profile-details p.loading {
+    font-style: italic;
+    color: #777;
+  }
+
+
+/* Add/Edit your styles as needed */
+
+.profile-editForm {
+  width: 550px;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 20px; /* Add margin as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-editForm label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.profile-editForm input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.profile-editForm button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-editForm button:hover {
+  background-color: #45a049;
+}
+

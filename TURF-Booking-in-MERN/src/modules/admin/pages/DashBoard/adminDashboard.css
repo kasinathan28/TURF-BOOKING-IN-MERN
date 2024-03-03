@@ -1,0 +1,72 @@
+.adminContainer {
+    display: flex;
+  }
+  
+  .default-image-container {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading1,
+  .default-image {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .heading1 h1 {
+    max-width: 300px;
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin: auto;
+    color: #22395c;
+  }
+  
+  .heading1 p {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .default-image img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 80px 30px;
+  }
+  
+  .adminSidebar {
+    min-width: 200px;
+    background-color: #22395c;
+    color: #ecf0f1;
+    position: fixed;
+    padding: 20px;
+    height: 81vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .adminSidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    text-align: left;
+    margin: 0;
+  }
+  
+  .adminSidebar li {
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 10px;
+    color: #22395c;
+    border: 1px solid #dfc8ea;
+    text-align: center;
+    background: #dfc8ea;
+    font-size: 16px;
+    transition: 0.3s ease all;
+  }
+  
+  .adminSidebar li:hover {
+    color: #3498db;
+  }

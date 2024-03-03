@@ -1,0 +1,39 @@
+.bookings{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookings table {
+  padding: 20px;
+  margin-left: 60px;
+  width: 1300px;
+  border-collapse: collapse;
+}
+
+.bookings th {
+  background-color: #f2f2f2;
+  color: #22395c;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.bookings td {
+  padding: 8px;
+  color: #22395c;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.bookings tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bookings tbody tr:hover {
+  background-color: #ddd;
+}
+
+.bookings tbody img{
+    width: 40px;
+    height: auto;
+}
