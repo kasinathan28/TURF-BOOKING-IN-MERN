@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TURF-BOOKING-IN-MERN/static/css/main.e0294bd4.css",
+    "main.js": "/TURF-BOOKING-IN-MERN/static/js/main.ffbf8f39.js",
+    "static/js/787.d1adba2c.chunk.js": "/TURF-BOOKING-IN-MERN/static/js/787.d1adba2c.chunk.js",
+    "static/media/football.jpeg": "/TURF-BOOKING-IN-MERN/static/media/football.891bb2b608828bc8e792.jpeg",
+    "static/media/logo.png": "/TURF-BOOKING-IN-MERN/static/media/logo.30385b110d393253752d.png",
+    "static/media/bg.jpeg": "/TURF-BOOKING-IN-MERN/static/media/bg.6424a56f52494356f86d.jpeg",
+    "static/media/showcase-sms.png": "/TURF-BOOKING-IN-MERN/static/media/showcase-sms.eeacd0392fd14d0a04e4.png",
+    "static/media/cricket.jpeg": "/TURF-BOOKING-IN-MERN/static/media/cricket.3f41d90bebcb65e62b8d.jpeg",
+    "static/media/golf.jpeg": "/TURF-BOOKING-IN-MERN/static/media/golf.fc5333b1b61e8e2808ce.jpeg",
+    "static/media/playimg.png": "/TURF-BOOKING-IN-MERN/static/media/playimg.ed94c7546a77d8aa7151.png",
+    "index.html": "/TURF-BOOKING-IN-MERN/index.html",
+    "main.e0294bd4.css.map": "/TURF-BOOKING-IN-MERN/static/css/main.e0294bd4.css.map",
+    "main.ffbf8f39.js.map": "/TURF-BOOKING-IN-MERN/static/js/main.ffbf8f39.js.map",
+    "787.d1adba2c.chunk.js.map": "/TURF-BOOKING-IN-MERN/static/js/787.d1adba2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0294bd4.css",
+    "static/js/main.ffbf8f39.js"
+  ]
+}
