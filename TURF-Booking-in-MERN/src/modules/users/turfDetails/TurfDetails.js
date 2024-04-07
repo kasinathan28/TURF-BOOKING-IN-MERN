@@ -68,7 +68,7 @@ function TurfDetails() {
       console.log(orderId);
 
       const options = {
-        key: 'rzp_test_WItU7MPVvXuKom', 
+        key: 'rzp_test_WU7fFm5bcovlbu', 
         amount: price * 100, 
         currency: 'INR',
         name: turfData.turfname,
